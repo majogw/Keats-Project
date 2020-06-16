@@ -12,9 +12,11 @@ import {Logo1} from './Components/Logo1';
 import {Footer} from './Components/Footer';
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {fab} from '@fortawesome/free-brands-svg-icons';
+import {far} from '@fortawesome/free-regular-svg-icons';
 import {Navigation} from './Components/Navigation';
+import ScreenshotApp from './Components/Images/ScreenshotApp.jpeg';
 
-library.add(fab);
+library.add(fab,far);
 
 function App() {
   const history = useHistory();
@@ -60,8 +62,11 @@ function App() {
                   wird, erfolgt in Form von gemeinsamen Mittagessen. Dazu stellt
                   Keats eine Plattform zur Verfügung, auf welcher eine Familie
                   entweder ein Mittagessen anbieten oder für das eigene Kind
-                  buchen kann. [Screenshot App]
+                  buchen kann.
                 </p>
+              </div>
+              <div className='screenshot'>
+                <img className='img-shot' src={ScreenshotApp} />
               </div>
               <div className='titulo'>
                 <h1>Wieso mitmachen?</h1>

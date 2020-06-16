@@ -5,44 +5,48 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 export const Form = () => {
   return (
     <div className='forma-principal'>
-      <form>
-        <div className='nombre-forma'>
-          <label>Name</label>
-          <div className='input-forma'>
-            <input type='text' name='Name' placeholder='Dein Name' required />
-          </div>
+      <div className='nombre-forma'>
+        <label>Name</label>
+        <div className='input-forma'>
+          <input
+            className='input-compartida'
+            type='text'
+            name='Name'
+            required
+          />
+          <span className='icon'>
+            <FontAwesomeIcon icon={['far', 'user']} size='lg' />
+          </span>
         </div>
-        <div className='email-forma'>
-          <div className='correo'>
-            <label>E-Mail-Adresse</label>
-          </div>
-          <div className='input-email'>
-            <input
-              type='email'
-              name='email'
-              placeholder='Deine E-Mail-Adresse'
-              required
-            />
-          </div>
+      </div>
+      <div className='email-forma'>
+        <div className='correo'>
+          <label>E-Mail-Adresse</label>
         </div>
-        <div className='total-message'>
-          <div className='message-forma'>
-            <label className='carta' htmlFor='message'>
-              Nachricht
-            </label>
-          </div>
-          <div className='input-message'>
-            <textarea
-              cols='30'
-              rows='10'
-              placeholder='Deine Nachricht'
-            ></textarea>
-          </div>
+        <div className='input-email'>
+          <input
+            className='input-compartida'
+            type='email'
+            name='email'
+            required
+          />
+          <span className='icon-input'>
+            <FontAwesomeIcon icon={['far', 'envelope']} size='lg' />
+          </span>
         </div>
-        <div className='button-forma'>
-          <input type='Submit' value='Senden' />
+      </div>
+      <div className='total-message'>
+        <div className='message-forma'>
+          <label className='carta' htmlFor='message'>
+            Nachricht
+          </label>
         </div>
-      </form>
+        <div className='input-message'>
+          <textarea cols='30' rows='10'></textarea>
+        </div>
+      </div>
+      <div className='button-forma'>
+      </div>
     </div>
   );
 };

@@ -18,7 +18,10 @@ export const Footer = () => {
             <div className='botonabajo1'>
               <ButtonNavigation label='Über uns'></ButtonNavigation>
             </div>
-            <div className='botonabajo'> <ButtonNavigation label='Contact us'></ButtonNavigation></div>
+            <div className='botonabajo'>
+              {' '}
+              <ButtonNavigation label='Contact us'></ButtonNavigation>
+            </div>
           </div>
         </div>
         <div className='icon-container'>
@@ -36,9 +39,13 @@ export const Footer = () => {
             <span className='img-container'>
               <img className='img-Unien' src={Unien} />
             </span>
-            
           </div>
         </div>
+      </div>
+      <div className='mail-footer'>
+        <a className='mail-abajo ' href='mailto:info.keats@gmail.com'>
+          Info.Keats@gmail.com
+        </a>
       </div>
     </div>
   );

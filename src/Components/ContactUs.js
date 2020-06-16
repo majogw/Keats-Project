@@ -19,9 +19,7 @@ export const ContactUs = () => {
             <Navigation></Navigation>
           </div>
           <Logo2></Logo2>
-          <div className='segundo-contact'>
             <CajitaContacUs></CajitaContacUs>
-          </div>
           <div className='footer-contact'>
             <Footer></Footer>
           </div>
