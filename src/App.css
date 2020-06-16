@@ -1,0 +1,380 @@
+.App {
+  display: flex;
+  width: 100%;
+  background-image: image('Logo2');
+  font-family: 'Roboto-Medium';
+  background-color: #ccefff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Amatic';
+}
+p {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: justify;
+}
+
+div {
+}
+
+.App-header {
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.titulo {
+  background-color: #256380;
+  padding-left: 1rem;
+}
+.text {
+  color: #0b1e26;
+}
+
+.Totales {
+  display: flex;
+  width: 100%;
+}
+
+.nombre {
+  margin-left: 3rem;
+}
+
+.grandetext {
+  display: flex;
+}
+.titulouber {
+  margin-top: 5rem;
+}
+
+.mission-titulo {
+  margin-top: 1rem;
+}
+
+.Teamparalelo {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 1em;
+  background-color: #ccefff;
+}
+
+.Teamcuadro {
+  color: #0b1e26;
+}
+.principal {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.imgteam {
+  display: flex;
+  width: 12.5rem;
+  height: 12.5rem;
+  margin-left: 3rem;
+  outline-color: transparent;
+  outline-style: dotted;
+}
+
+.texttituloteam {
+  color: white;
+}
+
+.contienecdu {
+  display: flex;
+  outline-color: transparent;
+  outline-style: solid;
+  background-color: #ccefff;
+}
+
+.unodos {
+  display: flex;
+  width: 95%;
+  flex-wrap: wrap;
+}
+
+.espacio-ul {
+  margin-left: 3rem;
+}
+.logo2 {
+  width: 10rem;
+  height: 8rem;
+  background-image: image('Logo2');
+  opacity: 0.8;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
+
+.logo1 {
+  width: 10rem;
+  height: 5rem;
+}
+
+.logo-container {
+  max-width: 4rem;
+  max-height: 4rem;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  border: 1px solid black;
+  background-color: #0b1e26;
+  min-height: 20rem;
+}
+.icon-container {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.iconos-cajita {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  flex-direction: row;
+}
+
+.icon {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.icon :hover {
+  color: #4ac5ff;
+}
+.img-Unien {
+  width: 1.33em;
+  height: 1.33em;
+  background-color: white;
+}
+.img-container :hover {
+  background-color: #4ac5ff;
+}
+.img-container {
+  display: flex;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.Navigation {
+  width: 100%;
+  background-color: #0b1e26;
+  min-height: 5rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.divhorizontal {
+  display: flex;
+}
+
+.ButtonNavigation {
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.625rem;
+}
+
+.ButtonNavigation :hover {
+  color: #4ac5ff;
+}
+
+.totalfooter {
+  display: flex;
+  width: 100%;
+}
+
+.divnegro {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.linea-azul {
+  border: 1px solid #4ac5ff;
+  background-color: #4ac5ff;
+  height: 0.1px;
+  width: 100%;
+}
+
+.footerboton {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.entstand {
+  display: flex;
+  align-content: center;
+  flex: 1;
+}
+
+.forma-principal {
+  display: flex;
+  direction: column;
+  margin-top: 7rem;
+  margin-left: 3rem;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-family: Roboto;
+  color: #256380;
+}
+
+.nombre-forma {
+  display: flex;
+  flex-direction: column;
+}
+.email-forma {
+  display: flex;
+  flex-direction: column;
+}
+.message-forma {
+  display: flex;
+  flex-direction: column;
+}
+
+.total-message {
+  display: flex;
+  flex-direction: column;
+}
+
+[type='submit'] {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: #d9f3ff;
+  border-radius: 1rem;
+  box-shadow: 0 0.3rem #999;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin: 0.25rem;
+  color: #256380;
+  font-family: roboto;
+  font-weight: 600;
+}
+
+.button-forma:hover {
+  background-color: lightblue;
+}
+
+.button-forma:active {
+  background-color: lightsteelblue;
+  box-shadow: 0 0.3rem #ccefff;
+  transform: translateY(2rem);
+}
+
+.base-contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.segundo-contact {
+  display: flex;
+}
+
+.footer-contact {
+  display: flex;
+  margin-top: 7rem;
+}
+
+.nombre-forma {
+  display: flex;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.nombre-forma:hover {
+  background-color: lightblue;
+}
+
+.email-forma {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.email-forma :hover {
+  background-color: lightblue;
+}
+
+.total-message {
+  display: flex;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.total-message:hover {
+  background-color: lightblue;
+}
+
+[type='text'],
+[type='email'],
+[type='url'],
+select,
+textarea {
+  display: block;
+  padding: 0.5rem;
+  background: transparent;
+  vertical-align: middle;
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #cdcdcd;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+[type='text']:focus,
+[type='email']:focus,
+[type='url']:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border: 1px solid #1e6bd6;
+}
+label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: block;
+  margin: 0.5rem 0;
+}
+.container {
+  max-width: 35rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
