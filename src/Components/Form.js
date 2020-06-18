@@ -14,7 +14,7 @@ export const Form = () => {
             name='Name'
             required
           />
-          <span className='icon'>
+          <span className='icon-input'>
             <FontAwesomeIcon icon={['far', 'user']} size='lg' />
           </span>
         </div>
@@ -41,11 +41,14 @@ export const Form = () => {
             Nachricht
           </label>
         </div>
-        <div className='input-message'>
-          <textarea cols='30' rows='10'></textarea>
+        <div className='input-mes'>
+          <textarea className='input-message' cols='30' rows='10'></textarea>
         </div>
       </div>
       <div className='button-forma'>
+        <button class='button'>
+          <span>Senden </span>
+        </button>
       </div>
     </div>
   );
