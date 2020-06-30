@@ -267,56 +267,70 @@ div {
 
 .forma-principal {
   display: flex;
+  border: 0.2rem solid #4ac5ff;
+  flex-wrap: wrap;
+  justify-content: space-between;
   flex-direction: column;
   font-family: Roboto;
   color: #256380;
   margin-top: 7rem;
-  width: 60%;
+  max-width: 50rem;
   padding-left: 2rem;
 }
 
 .nombre-forma {
   display: flex;
+  width: 80%;
   flex-direction: column;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 1rem;
 }
+
 .email-forma {
   display: flex;
   flex-direction: column;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 1rem;
 }
+
 .message-forma {
   display: flex;
   flex-direction: column;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding-left: 0%;
+  margin-left: 0%;
+}
+.carta {
+  display: flex;
 }
 
 .total-message {
   display: flex;
   flex-direction: column;
+  cursor: pointer;
+  padding-left: 0%;
 }
 
 [type='submit'] {
   display: inline-block;
-  margin-top: 1rem;
-  padding: 0.5rem;
   cursor: pointer;
   background-color: #d9f3ff;
   border-radius: 1rem;
   box-shadow: 0 0.3rem #999;
-  vertical-align: middle;
   white-space: nowrap;
-  margin: 0.25rem;
   color: #256380;
   font-family: roboto;
   font-weight: 600;
 }
 
-.button-forma:hover {
-  background-color: lightblue;
-}
-
 .button-forma:active {
   background-color: lightsteelblue;
   box-shadow: 0 0.3rem #ccefff;
-  transform: translateY(2rem);
 }
 
 .base-contact {
@@ -333,25 +347,16 @@ div {
   margin-top: 7rem;
 }
 
-.nombre-forma {
-  display: flex;
-  padding: 0.5rem;
-  cursor: pointer;
-  border-radius: 1rem;
-}
-
-.email-forma {
-  margin-top: 1rem;
-  padding: 0.5rem;
-  cursor: pointer;
-  border-radius: 1rem;
-}
-
 .icon-input {
   position: absolute;
   right: 0;
   top: 25%;
 }
+
+.icon-input :hover {
+  color: #4ac5ff;
+}
+
 .input-compartida {
   background-color: #e3e8eb;
   height: 2.5rem;
@@ -363,22 +368,16 @@ div {
 
 .input-email {
   position: relative;
+  width: 80%;
 }
 
 .input-forma {
   position: relative;
 }
-.total-message {
-  display: flex;
-  margin-top: 1rem;
-  padding: 0.5rem;
-  cursor: pointer;
-  border-radius: 1rem;
-}
 
 .input-message {
   background-color: #e3e8eb;
-  width: 100%;
+  width: 80%;
   border: 0.2rem solid #e3e8eb;
   border-radius: 0.4rem;
   box-shadow: none;
