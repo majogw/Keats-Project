@@ -329,8 +329,7 @@ div {
 }
 
 .button-forma:active {
-  background-color: lightsteelblue;
-  box-shadow: 0 0.3rem #ccefff;
+  box-shadow: 0 0.3rem transparent;
 }
 
 .base-contact {
@@ -351,10 +350,6 @@ div {
   position: absolute;
   right: 0;
   top: 25%;
-}
-
-.icon-input :hover {
-  color: #4ac5ff;
 }
 
 .input-compartida {
