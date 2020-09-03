@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './Images/fotoa.jpg';
+import logo from './Images/Logo-Keats.svg';
 
 export const Logo1 = () => {
   return (

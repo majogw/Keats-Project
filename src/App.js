@@ -16,7 +16,7 @@ import {far} from '@fortawesome/free-regular-svg-icons';
 import {Navigation} from './Components/Navigation';
 import ScreenshotApp from './Components/Images/ScreenshotApp.jpeg';
 
-library.add(fab,far);
+library.add(fab, far);
 
 function App() {
   const history = useHistory();

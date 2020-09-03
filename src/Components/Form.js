@@ -3,6 +3,7 @@ import {useHistory} from 'react-router-dom';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {useState} from 'react';
 import {icon} from '@fortawesome/fontawesome-svg-core';
+import {sendEmailRequest} from '../api/requests';
 
 export const Form = () => {
   const [name, setName] = useState('');
@@ -12,8 +13,13 @@ export const Form = () => {
   const [focusEmail, setFocusEmail] = useState(false);
 
   function imprimirNombres() {
-    console.log(name, email, nachricht);
+    if (name !== '' && email !== '' && nachricht !== '') {
+      sendEmailRequest(name, email, nachricht);
+    } else {
+      alert('Einige Felder fehlen noch');
+    }
   }
+
   function CambioColor() {
     if (name === '' && focusName === false) {
       return 'grey';

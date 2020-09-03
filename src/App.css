@@ -144,8 +144,10 @@ div {
 }
 
 .logo1 {
-  width: 10rem;
+  display: flex;
+  width: 7rem;
   height: 5rem;
+  background-color: white;
 }
 
 .logo-container {
