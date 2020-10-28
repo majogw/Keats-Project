@@ -557,6 +557,8 @@ label {
 .recuadro {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+  row-gap: 1rem;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -590,4 +592,27 @@ label {
   justify-content: center;
   align-items: center;
   align-content: center;
+}
+
+.globo1 {
+  display: flex;
+  background-color: violet;
+  width: 12.5rem;
+  height: 30.68;
+}
+.globo2 {
+  display: flex;
+  background-color: turquoise;
+  width: 12.5rem;
+  height: 32.12rem;
+}
+
+.letras-grandes {
+  font-size: 43.75rem;
+  color: white;
+}
+
+.espacio-letrasantes {
+  display: flex;
+  margin-top: 50rem;
 }

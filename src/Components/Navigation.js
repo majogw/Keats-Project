@@ -27,7 +27,7 @@ export const Navigation = () => {
           <div>
             <ButtonNavigation
               label='Home1'
-              active={location.pathname === '/home1'}
+              active={location.pathname === '/Home1'}
             ></ButtonNavigation>
           </div>
           <div>
