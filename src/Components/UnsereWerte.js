@@ -21,7 +21,7 @@ export default class UnsereWerte extends React.Component {
     return (
       <div>
         <div className='titulo texttituloteam texttitulouber'>
-          <h1></h1>
+          <h1>UnsereWerte</h1>
         </div>
         <ul className='espacio-ul'>
           {array.map((item, index) => {

@@ -1,52 +1,59 @@
 import React from 'react';
 import {useHistory} from 'react-router-dom';
 
-import fotoNico from './Images/Nico.jpg';
-import fotoJonas from './Images/Jonas.jpg';
-import fotoAnais from './Images/Anais.jpg';
-import fotoNithu from './Images/Nithu.jpg';
-import UnsereWerte from './UnsereWerte';
-
-export const Team = () => {
+export const segundaHm1 = () => {
   return (
-    <div className='Teamparalelo'>
+    <div className='Segunda'>
       <div className='Teamcuadro'>
         <div className='titulo texttituloteam titulouber'>
-          <h1 className='text-team'>
-            Wir sind Keats und für das stehen wir ein
-          </h1>
+          <h1 className=''>Unsere Mission</h1>
         </div>
         <div className='text-team'>
           <p>
-            Wir bei Keats teilen die Überzeugung, dass alle Kinder, unabhängig
-            ihrer Herkunft, ihres Geschlechts, ihres sozioökonomischen Status
-            und anderer Differenzen, ein Recht auf gleiche Bildungschancen haben
-            sollen. Wir glauben, dass Probleme nur überwunden werden können,
-            wenn die Gesellschaft dafür sensibilisiert wird und gemeinsam
-            handelt.
+            Essen verbindet - Keats ist ein soziales Startup, das die Förderung von Chancengleichheit für Kinder mit Migrationshintergrund verfolgt. Dies wird durch die Förderung der sozialen Interaktion zwischen Kindern mit und ohne Migrationshintergrund erreicht.
           </p>
+          <div className='titulo texttituloteam'>
+            <h1>Was wir fördern</h1>
+          </div>
+        </div>
+        <div className='contienecdu'>
+          <div className='principal'>
+            <div>
+              <p>– die soziale Integration
+    – das Wohlbefinden
+    – die Beschleunigung des Spracherwerbs
+    – das Erlernen interkultureller Fähigkeiten in jungem Alter
+    – die Vernetzung der Eltern
+    – die Vernetzung des Quartiers
+    – eine inklusive, diverse und gleichberechtigte Gesellschaft
+    
+    Die soziale Interaktion, die durch unser Startup gefördert wird, erfolgt in Form von gemeinsamen Mittagessen. Dazu stellt Keats eine Plattform zur Verfügung, auf welcher eine Familie entweder ein Mittagessen anbieten oder für das eigene Kind buchen kann.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className='contienecdu'>
+          <div className='principal'>
+         <div>
+         <h1>Kinder</h1>
+         </div>
+            <div>
+              <p>
+                Wir unterstüzen Kinder zwischen sieben und zwölf Jahren mit Migrationshintergrund unterstüzen. Gleichzeitig profitieren Schweizer Kinder durch interkulurellen Austausch von Sprachen, Essen und Freunden.
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className='contienecdu'>
           <div className='principal'>
             <div>
               <div className='titulo texttituloteam titulouber'>
-                <h1>Wir sind Keats und das ist unsere Geschichte</h1>
+                <h1>Eltern</h1>
               </div>
               <p>
-                Keats entstand im Dezember 2018 an der Universität Zürich im
-                Rahmen eines Seminars (Social Entrepreneurship), welches als
-                Wettbewerb ausgelegt war. Unser Projekt wurde mit dem besten
-                Businessplan und Pitch ausgezeichnet. Seither arbeiten wir
-                eifrig an der Verwirklichung unseres Projektes. Wir haben Anfang
-                2019 einen App-Entwickler in unser Team aufgenommen und mit ihm
-                zusammen einen funktionellen Prototyp unserer App entwickelt.
-                Weiter haben wir das Gespräch mit Schulleitern, Eltern und
-                Lehrern aufgesucht, um ihre Bedürfnisse und Anregungen zu
-                erfahren. Seit Herbst 2019 haben wir eine Kollaboration mit
-                einer Schule in Luzern in die Wege geleitet. Unser neustes
-                Mitglied seit Anfang 2020 ist im UX Design tätig und für die
-                Entwicklung der Benutzerfreundlichkeit unserer App zuständig.
+                Wir können Eltern entlasten und bieten eine simple und kostengünstige Alternative für die Mittagsversorgung ihrer Kinder.
+
               </p>
             </div>
           </div>
@@ -63,7 +70,7 @@ export const Team = () => {
         </div>
         <div className='contienecdu'>
           <div className='principal'>
-            <h2 className='nombre'>Jonas (Kernteam UX-, UI-Design)</h2>
+            <h2 className='nombre'>Jonas (UX-Designer)</h2>
             <h3></h3>
             <img className='imgteam' src={fotoJonas} />
             <div className='grandetext'>
@@ -80,7 +87,7 @@ export const Team = () => {
       <div className='Teamcuadro'>
         <div className='contienecdu'>
           <div className='principal'>
-            <h2 className='nombre'> Anaïs (Co-Gründerin) </h2>
+            <h2 className='nombre'> Anaïs (Co-Founder) </h2>
             <img className='imgteam' src={fotoAnais} />
             <div className='grandetext'>
               <p className='textteam'>
@@ -98,7 +105,7 @@ export const Team = () => {
         </div>
         <div className='contienecdu'>
           <div className='principal'>
-            <h2 className='nombre'>Nithu (Co-Gründerin)</h2>
+            <h2 className='nombre'>Nithu (Co-Founder)</h2>
             <img className='imgteam' src={fotoNithu} />
             <div className='grandetext'>
               <p className='textteam'>
@@ -109,32 +116,10 @@ export const Team = () => {
                 zu erleichtern miteinander in Kontakt zu kommen.
               </p>
             </div>
-            <div className='titulo texttituloteam titulouber'>
-              <h1>Unsere Werte</h1>
-            </div>
-            <div className='contienecdu'>
-              <div className='principal'>
-                <div>
-                  <UnsereWerte></UnsereWerte>
-                </div>
-              </div>
-            </div>
-
-            <div className='contienecdu'>
-              <div className='principal'>
-                <div>
-                  <p>
-                    [SDGs als Symbole einblenden: 3 (good health and wellbeing),
-                    4 (quality education), 5 (gender equality – dadurch, dass
-                    arbeitende Frauen unterstützt werden, da sie keinen
-                    Hort/Mittagstisch zahlen müssen), 10 (reduced inequalities)]
-                  </p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
     </div>
   );
 };
+

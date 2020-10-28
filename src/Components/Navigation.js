@@ -26,6 +26,12 @@ export const Navigation = () => {
         <div className='divhorizontal divnegro'>
           <div>
             <ButtonNavigation
+              label='Home1'
+              active={location.pathname === '/home1'}
+            ></ButtonNavigation>
+          </div>
+          <div>
+            <ButtonNavigation
               label='Home'
               active={location.pathname === '/'}
             ></ButtonNavigation>

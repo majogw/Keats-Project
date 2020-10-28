@@ -14,8 +14,12 @@ export const ButtonNavigation = (props) => {
     } else if (props.label === 'Contact us') {
       console.log('Contact us');
       history.push('/contactus');
+    } else if (props.label === 'Home1') {
+      console.log('Home1');
+      history.push('Home1');
     }
   }
+
   return (
     <div className='ButtonNavigation' onClick={navegar}>
       <div> {props.label} </div>
