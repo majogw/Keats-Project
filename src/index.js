@@ -8,6 +8,7 @@ import {AboutUs} from './Components/AboutUs';
 import {ContactUs} from './Components/ContactUs';
 import './Components/Fonts/AmaticSC-Regular.ttf';
 import './Components/Fonts/Roboto-Medium.ttf';
+import {Nuevo} from './Components/Nuevo/Nuevo';
 
 const routing = (
   <BrowserRouter>
@@ -15,6 +16,7 @@ const routing = (
       <Route exact path='/' component={App} exact />
       <Route exact path='/aboutus' component={AboutUs} />
       <Route exact path='/contactus' component={ContactUs} />
+      <Route exact path='/nuevo' component={Nuevo} />
     </div>
   </BrowserRouter>
 );

@@ -13,10 +13,11 @@ import {Footer} from './Components/Footer';
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {fab} from '@fortawesome/free-brands-svg-icons';
 import {far} from '@fortawesome/free-regular-svg-icons';
+import {fas} from '@fortawesome/free-solid-svg-icons';
 import {Navigation} from './Components/Navigation';
 import ScreenshotApp from './Components/Images/ScreenshotApp.jpeg';
 
-library.add(fab, far);
+library.add(fab, far, fas);
 
 function App() {
   const history = useHistory();
