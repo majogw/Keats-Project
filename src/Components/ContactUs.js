@@ -1,7 +1,7 @@
 import React from 'react';
 import {useHistory} from 'react-router-dom';
 import {ButtonNavigation} from './ButtonNavigation';
-import Navigation from './Navigation';
+import {Navigation} from './Navigation';
 import {CajitaContacUs} from './CajitaContactUs';
 import {Footer} from './Footer';
 import {Logo2} from './Logo2';
@@ -19,7 +19,7 @@ export const ContactUs = () => {
             <Navigation></Navigation>
           </div>
           <Logo2></Logo2>
-            <CajitaContacUs></CajitaContacUs>
+          <CajitaContacUs></CajitaContacUs>
           <div className='footer-contact'>
             <Footer></Footer>
           </div>

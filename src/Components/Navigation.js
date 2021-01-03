@@ -26,6 +26,12 @@ export const Navigation = () => {
         <div className='divhorizontal divnegro'>
           <div>
             <ButtonNavigation
+              label='Home1'
+              active={location.pathname === '/nuevo'}
+            ></ButtonNavigation>
+          </div>
+          <div>
+            <ButtonNavigation
               label='Home'
               active={location.pathname === '/'}
             ></ButtonNavigation>
@@ -47,5 +53,3 @@ export const Navigation = () => {
     </div>
   );
 };
-
-export default Navigation;

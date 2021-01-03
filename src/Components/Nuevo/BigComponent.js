@@ -1,8 +1,7 @@
-import React, {useCallback, useEffect, useState} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import * as _ from 'lodash';
+import React from 'react';
 
-export const BigComponent = ({color, arrow, activeCircle}) => {
+export const BigComponent = ({color, arrow, activeCircle, children}) => {
   let colorCircle =
     activeCircle && activeCircle % 2 !== 0 ? '#4ac5ff' : 'white';
 
@@ -15,36 +14,6 @@ export const BigComponent = ({color, arrow, activeCircle}) => {
     window.scrollTo(0, screenHeight * position);
   };
 
-  const handleManualScroll = useCallback(
-    (event) => {
-      const yValue = window.scrollY;
-
-      if (yValue > 0 && yValue <= screenHeight) {
-        window.scrollTo(0, screenHeight);
-      } else if (yValue > screenHeight && yValue <= screenHeight * 2) {
-        window.scrollTo(0, screenHeight * 2);
-      } else if (yValue > screenHeight && yValue <= screenHeight * 3) {
-        window.scrollTo(0, screenHeight * 3);
-      } else if (yValue > screenHeight && yValue <= screenHeight * 4) {
-        window.scrollTo(0, screenHeight * 4);
-      }
-    },
-    [screenHeight],
-  );
-
-  useEffect(() => {
-    window.addEventListener(
-      'scroll',
-      _.debounce((e) => {
-        handleManualScroll(e);
-      }, 300),
-    );
-
-    return () => {
-      window.removeEventListener('scroll', (e) => handleManualScroll(e));
-    };
-  });
-
   return (
     <div
       style={{
@@ -55,7 +24,7 @@ export const BigComponent = ({color, arrow, activeCircle}) => {
         display: 'flex',
       }}
     >
-      <div style={{flex: 1}}>Main Content</div>
+      <div style={{flex: 1, width: '100%'}}>{children}</div>
       {activeCircle && (
         <div
           style={{

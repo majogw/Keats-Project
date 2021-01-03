@@ -8,6 +8,9 @@ export const ButtonNavigation = (props) => {
     if (props.label === 'Home') {
       console.log('Home');
       history.push('/');
+    } else if (props.label === 'Home1') {
+      console.log('Home1');
+      history.push('/nuevo');
     } else if (props.label === 'Über uns') {
       console.log('Über uns');
       history.push('/aboutus');
