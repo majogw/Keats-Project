@@ -1,4 +1,6 @@
 import {PrimerComponente} from 'Components/PrimerComponente';
+import {SegundoComponente} from 'Components/SegundoComponente';
+import {TercerComponente} from 'Components/TercerComponente';
 import React from 'react';
 import {BigComponent} from './BigComponent';
 
@@ -19,11 +21,11 @@ export const Nuevo = () => {
         <PrimerComponente></PrimerComponente>
       </BigComponent>
       <BigComponent color={'white'} activeCircle={1} arrow={undefined}>
-        <div style={{flex: 1, backgroundColor: 'red', width: '100%'}}>
-          REd red
-        </div>
+        <SegundoComponente></SegundoComponente>
       </BigComponent>
-      <BigComponent color={'#4ac5ff'} activeCircle={2} arrow={undefined} />
+      <BigComponent color={'#4ac5ff'} activeCircle={2} arrow={undefined}>
+        <TercerComponente></TercerComponente>
+      </BigComponent>
       <BigComponent color={'white'} activeCircle={3} arrow={undefined} />
     </div>
   );

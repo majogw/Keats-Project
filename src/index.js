@@ -1,19 +1,19 @@
+import {ContactUs} from 'Components/ContactUs';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import {BrowserRouter, Route} from 'react-router-dom';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
-import {Route, Link, BrowserRouter} from 'react-router-dom';
 import {AboutUs} from './Components/AboutUs';
-import {ContactUs} from './Components/ContactUs';
 import './Components/Fonts/AmaticSC-Regular.ttf';
 import './Components/Fonts/Roboto-Medium.ttf';
 import {Nuevo} from './Components/Nuevo/Nuevo';
+import './index.css';
+import * as serviceWorker from './serviceWorker';
 
 const routing = (
   <BrowserRouter>
     <div>
-      <Route exact path='/' component={App} exact />
+      <Route exact path='/' component={App} />
       <Route exact path='/aboutus' component={AboutUs} />
       <Route exact path='/contactus' component={ContactUs} />
       <Route exact path='/nuevo' component={Nuevo} />

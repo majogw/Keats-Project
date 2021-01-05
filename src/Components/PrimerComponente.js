@@ -16,13 +16,6 @@ const Grande = styled.div`
   position: relative;
 `;
 
-const Roja = styled.div`
-  background-color: red;
-  position: absolute;
-  left: 0;
-  width: 50%;
-`;
-
 const Imagenes = styled.div`
   position: absolute;
   left: 0;
