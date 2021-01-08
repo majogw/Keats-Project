@@ -1,10 +1,7 @@
-import React, {Component} from 'react';
-import {useHistory} from 'react-router-dom';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {Logo1} from './Logo1';
+import React, {useEffect} from 'react';
+import {useHistory, useLocation} from 'react-router-dom';
 import {ButtonNavigation} from './ButtonNavigation';
-import {useEffect} from 'react';
-import {useLocation} from 'react-router-dom';
+import {Logo1} from './Logo1';
 
 export const Navigation = () => {
   const history = useHistory();
@@ -21,7 +18,7 @@ export const Navigation = () => {
     <div className='Navigation'>
       <div className='divhorizontal'>
         <div>
-          <Logo1 className=''></Logo1>
+          <Logo1></Logo1>
         </div>
         <div className='divhorizontal divnegro'>
           <div>

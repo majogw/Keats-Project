@@ -8,9 +8,10 @@ const GranFamilia = styled.div`
 
 const Familia = styled.img`
   height: 24.56rem;
+  margin-top: 1.25rem;
 `;
 
-export const Familia = () => {
+export const FamiliaReunion = () => {
   return (
     <GranFamilia>
       <Familia alt={'Meeting of Families'} src={familiareunion} />

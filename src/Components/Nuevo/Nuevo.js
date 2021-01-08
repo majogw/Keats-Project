@@ -1,3 +1,4 @@
+import {CuartoComponente} from 'Components/CuartoComponente';
 import {PrimerComponente} from 'Components/PrimerComponente';
 import {SegundoComponente} from 'Components/SegundoComponente';
 import {TercerComponente} from 'Components/TercerComponente';
@@ -26,7 +27,14 @@ export const Nuevo = () => {
       <BigComponent color={'#4ac5ff'} activeCircle={2} arrow={undefined}>
         <TercerComponente></TercerComponente>
       </BigComponent>
-      <BigComponent color={'white'} activeCircle={3} arrow={undefined} />
+      <BigComponent color={'white'} activeCircle={3} arrow={undefined}>
+        <CuartoComponente></CuartoComponente>
+      </BigComponent>
+      <BigComponent
+        color={'#4ac5ff'}
+        activeCircle={3}
+        arrow={undefined}
+      ></BigComponent>
     </div>
   );
 };

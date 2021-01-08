@@ -5,7 +5,7 @@ import {Globo2} from './Globo2';
 
 const Grande = styled.div`
   flex: 1;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
   display: flex;
   justify-items: center;
