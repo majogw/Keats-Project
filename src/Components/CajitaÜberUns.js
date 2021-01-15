@@ -1,7 +1,6 @@
 import React from 'react';
-import {useHistory} from 'react-router-dom';
-import {Team} from './Team';
+import {Grupo} from './Grupo';
 
 export const CajitaÜberUns = () => {
-  return <Team></Team>;
+  return <Grupo></Grupo>;
 };

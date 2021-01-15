@@ -1,9 +1,7 @@
 import React from 'react';
-import {useHistory} from 'react-router-dom';
-
-import fotoNico from './Images/Nico.jpg';
-import fotoJonas from './Images/Jonas.jpg';
 import fotoAnais from './Images/Anais.jpg';
+import fotoJonas from './Images/Jonas.jpg';
+import fotoNico from './Images/Nico.jpg';
 import fotoNithu from './Images/Nithu.jpg';
 import UnsereWerte from './UnsereWerte';
 

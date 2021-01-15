@@ -1,4 +1,6 @@
 import {CuartoComponente} from 'Components/CuartoComponente';
+import {Footer} from 'Components/Footer';
+import {Navigation} from 'Components/Navigation';
 import {PrimerComponente} from 'Components/PrimerComponente';
 import {SegundoComponente} from 'Components/SegundoComponente';
 import {TercerComponente} from 'Components/TercerComponente';
@@ -30,11 +32,10 @@ export const Nuevo = () => {
       <BigComponent color={'white'} activeCircle={3} arrow={undefined}>
         <CuartoComponente></CuartoComponente>
       </BigComponent>
-      <BigComponent
-        color={'#4ac5ff'}
-        activeCircle={3}
-        arrow={undefined}
-      ></BigComponent>
+      <BigComponent color={'#4ac5ff'} activeCircle={3} arrow={undefined}>
+        <Navigation></Navigation>
+        <Footer></Footer>
+      </BigComponent>
     </div>
   );
 };

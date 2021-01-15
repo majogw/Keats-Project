@@ -158,8 +158,8 @@ div {
   display: flex;
   flex-direction: column;
   width: 100%;
-  border: 1px solid black;
-  background-color: #0b1e26;
+  border: 1px solid #4ac5ff;
+  background-color: #4ac5ff;
   min-height: 20rem;
 }
 .icon-container {

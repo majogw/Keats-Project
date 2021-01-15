@@ -1,8 +1,5 @@
-import React from 'react';
-import {useHistory} from 'react-router-dom';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {useState} from 'react';
-import {icon} from '@fortawesome/fontawesome-svg-core';
+import React, {useState} from 'react';
 import {sendEmailRequest} from '../api/requests';
 
 export const Form = () => {
@@ -37,6 +34,9 @@ export const Form = () => {
 
   return (
     <div className='forma-principal'>
+      <div className=' tituloforma'>
+        <h3>Wir freuen uns auf deine Nachricht</h3>
+      </div>
       <div className='nombre-forma'>
         <label>Name</label>
         <div className='input-forma'>

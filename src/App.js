@@ -1,21 +1,16 @@
-import React, {useState} from 'react';
-import logo from './logo.svg';
-import './App.css';
-import {AboutUs} from './Components/AboutUs';
-import {ContactUs} from './Components/ContactUs';
-import {useHistory} from 'react-router-dom';
-import UnsereWerte from './Components/UnsereWerte';
-import {Team} from './Components/Team';
-import Wiederum from './Components/Wiederum';
-import {Logo2} from './Components/Logo2';
-import {Logo1} from './Components/Logo1';
-import {Footer} from './Components/Footer';
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {fab} from '@fortawesome/free-brands-svg-icons';
 import {far} from '@fortawesome/free-regular-svg-icons';
 import {fas} from '@fortawesome/free-solid-svg-icons';
-import {Navigation} from './Components/Navigation';
+import React, {useState} from 'react';
+import {useHistory} from 'react-router-dom';
+import './App.css';
+import {Footer} from './Components/Footer';
 import ScreenshotApp from './Components/Images/ScreenshotApp.jpeg';
+import {Logo1} from './Components/Logo1';
+import {Logo2} from './Components/Logo2';
+import {Navigation} from './Components/Navigation';
+import Wiederum from './Components/Wiederum';
 
 library.add(fab, far, fas);
 
