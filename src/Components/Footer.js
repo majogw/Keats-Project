@@ -1,6 +1,5 @@
-import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import Unien from './Images/UniversityofZurich.png';
+import React from 'react';
 import {ButtonNavigation} from './ButtonNavigation';
 
 export const Footer = () => {
@@ -14,6 +13,9 @@ export const Footer = () => {
           <div className='divhorizontal footerboton'>
             <div className='botonabajo'>
               <ButtonNavigation label='Home'></ButtonNavigation>
+            </div>
+            <div className='botonabajo'>
+              <ButtonNavigation label='Home1'></ButtonNavigation>
             </div>
             <div className='botonabajo1'>
               <ButtonNavigation label='Über uns'></ButtonNavigation>
@@ -35,9 +37,6 @@ export const Footer = () => {
             </span>
             <span className='icon'>
               <FontAwesomeIcon icon={['fab', 'instagram']} size='lg' />
-            </span>
-            <span className='img-container'>
-              <img className='img-Unien' src={Unien} />
             </span>
           </div>
         </div>
