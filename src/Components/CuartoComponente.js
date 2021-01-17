@@ -29,6 +29,7 @@ const DobleCuarto = styled.div`
 const TituloMitmachen = styled.h1`
   display: flex;
   color: #4ac5ff;
+  font-size: 2.37rem;
 `;
 
 const TripleCuarto = styled.div`
@@ -55,28 +56,34 @@ const TotalAbajo = styled.div`
 const Titulokinder = styled.h1`
   display: flex;
   color: #4ac5ff;
+  font-size: 2.37rem;
 `;
 const KinderMessage = styled.p`
   display: flex;
   width: 20rem;
+  font-size: 1.12rem;
 `;
 
 const TituloEltern = styled.h1`
   display: flex;
   color: #4ac5ff;
+  font-size: 2.37rem;
 `;
 const ElternMessage = styled.p`
   display: flex;
   width: 20rem;
+  font-size: 1.12rem;
 `;
 
 const TituloSchulen = styled.h1`
   display: flex;
   color: #4ac5ff;
+  font-size: 2.37rem;
 `;
 const SchulenMessage = styled.p`
   display: flex;
   width: 20rem;
+  font-size: 1.12rem;
 `;
 
 export const CuartoComponente = () => {

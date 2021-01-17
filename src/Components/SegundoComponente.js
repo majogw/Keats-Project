@@ -26,10 +26,12 @@ const Mision = styled.div`
 const TituloMision = styled.h1`
   display: flex;
   color: #4ac5ff;
+  font-size: 2.37rem;
 `;
 const MisionMessage = styled.p`
   display: flex;
   width: 30rem;
+  font-size: 1.12rem;
 `;
 
 export const SegundoComponente = () => {

@@ -32,6 +32,7 @@ export const MarcoTitulo = styled.div`
 export const TituloSind = styled.h3`
   display: flex;
   color: black;
+  font-size: 2.37rem;
 `;
 export const MarcoTextoa = styled.div`
   display: flex;
@@ -52,6 +53,7 @@ export const MarcoTituloa = styled.div`
 export const TituloGeschihte = styled.h3`
   display: flex;
   color: black;
+  font-size: 2.37rem;
 `;
 export const MarcoTextob = styled.div`
   display: flex;
@@ -69,6 +71,7 @@ export const MarcoGraf = styled.div`
   justify-content: space-between;
   align-items: center;
   align-content: center;
+  font-size: 1.12rem;
 `;
 
 export const GrupoCuatro = styled.ul`
@@ -115,6 +118,7 @@ export const Anaispic = styled.img`
 
 export const Jonas = styled.li`
   display: flex;
+  justify-content: center;
 `;
 export const MarcoJonas = styled.div`
   display: flex;
@@ -141,6 +145,7 @@ export const Jonaspic = styled.img`
 
 export const Nithu = styled.li`
   display: flex;
+  justify-content: center;
 `;
 
 export const MarcoNithu = styled.div`
@@ -168,6 +173,7 @@ export const Nithupic = styled.img`
 
 export const Nico = styled.li`
   display: flex;
+  justify-content: center;
 `;
 export const MarcoNico = styled.div`
   display: flex;
@@ -253,7 +259,9 @@ export const Grupo = () => {
             </MarcoAnais>
             <MarcoNithu>
               <Nithupic alt='foto' src={fotoNithu} />
-              <Nithu>Nithu (Co-Gründerin)</Nithu>
+              <Nithu>
+                Nithu <br></br> (Co-Gründerin)
+              </Nithu>
               <TextoNithu>
                 Ich mache bei Keats mit, weil ich selber als Kind mit
                 Migrationshintergrund die Situation kannte, sich wegen
@@ -266,7 +274,9 @@ export const Grupo = () => {
           <ChicosMarco>
             <MarcoJonas>
               <Jonaspic alt='foto' src={fotoJonas} />
-              <Jonas>Jonas (Kernteam und UX-, UI-Design)</Jonas>
+              <Jonas>
+                Jonas <br></br> (Kernteam und UX-, UI-Design)
+              </Jonas>
               <TextoJonas>
                 Ich bin bei Keats mit dabei, weil ich mehr Chancengleichheit für
                 alle will. Ich bin verantwortlich für leuchtende Farben und dass
@@ -275,7 +285,9 @@ export const Grupo = () => {
             </MarcoJonas>
             <MarcoNico>
               <Nicopic alt='foto' src={fotoNico} />
-              <Nico>Nico (Kernteam und Entwicklung)</Nico>
+              <Nico>
+                Nico <br></br> (Kernteam und Entwicklung)
+              </Nico>
               <TextoNico></TextoNico>
             </MarcoNico>
           </ChicosMarco>

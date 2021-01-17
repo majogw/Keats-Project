@@ -27,11 +27,13 @@ const FordernCompleto = styled.div`
 const Fordern = styled.h1`
   display: flex;
   color: white;
+  font-size: 2.37rem;
 `;
 
 const FordernText = styled.p`
   display: flex;
   width: 30rem;
+  font-size: 1.12rem;
 `;
 
 export const TercerComponente = () => {
