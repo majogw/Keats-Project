@@ -71,7 +71,8 @@ export const MarcoGraf = styled.div`
   justify-content: space-between;
   align-items: center;
   align-content: center;
-  font-size: 1.12rem;
+  font-size: 0.875rem;
+  text-align: center;
 `;
 
 export const GrupoCuatro = styled.ul`
@@ -99,7 +100,10 @@ export const MarcoAnais = styled.div`
   width: 31rem;
   background-color: #4ac5ff;
   border: solid 1rem;
-  border-color: #white;
+  border-color: white;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const TextoAnais = styled.p`
@@ -126,7 +130,10 @@ export const MarcoJonas = styled.div`
   width: 31rem;
   background-color: #4ac5ff;
   border: solid 1rem;
-  border-color: #white;
+  border-color: white;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const TextoJonas = styled.p`
@@ -154,7 +161,10 @@ export const MarcoNithu = styled.div`
   width: 31rem;
   background-color: #4ac5ff;
   border: solid 1rem;
-  border-color: #white;
+  border-color: white;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const TextoNithu = styled.p`
@@ -181,7 +191,10 @@ export const MarcoNico = styled.div`
   width: 31rem;
   background-color: #4ac5ff;
   border: solid 1rem;
-  border-color: #white;
+  border-color: white;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const TextoNico = styled.p`

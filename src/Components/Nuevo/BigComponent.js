@@ -1,12 +1,10 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {screenHeight} from 'Components/Variables';
 import React from 'react';
 
 export const BigComponent = ({color, arrow, activeCircle, children}) => {
   let colorCircle =
     activeCircle && activeCircle % 2 !== 0 ? '#4ac5ff' : 'white';
-
-  // screen height is always window.innerHeight
-  const screenHeight = window.innerHeight;
 
   const scrollToPosition = (position) => {
     // we have 4 cards
